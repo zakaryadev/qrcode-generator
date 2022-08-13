@@ -9,7 +9,10 @@ body{
   padding: 0 10px;
   min-height: 100vh;
   align-items: center;
-  background: url("https://i.pinimg.com/originals/64/5b/c5/645bc5b95ec2292ce4b3a6a2bdea5244.jpg");
+  background: url("https://wallpaperaccess.com/full/6233787.jpg");
+  background-position: center;
+  
+  /* https://i.pinimg.com/originals/64/5b/c5/645bc5b95ec2292ce4b3a6a2bdea5244.jpg */
   justify-content: center;
 }
 ::selection{
@@ -26,6 +29,7 @@ body{
   border: 2px solid rgba(255, 255, 255, 0.11);
   box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.144);
   backdrop-filter: blur(20px);
+  filter: saturate(0.9);
 }
 .wrapper.active{
   height: 530px;
